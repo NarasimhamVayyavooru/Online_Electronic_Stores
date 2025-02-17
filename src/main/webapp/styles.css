@@ -1,0 +1,77 @@
+/* General styles for the entire project */
+ .box {
+            width: 300px;
+            height: 150px;
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        
+
+h1 {
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+i {
+    font-style: italic;
+    color: #16a085;
+    font-size: 1.2em;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: #ffffff;
+    border: 1px solid #ced4da;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    body {
+        text-align: left;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9em;
+    }
+   
+}

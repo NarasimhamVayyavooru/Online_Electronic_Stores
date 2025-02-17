@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product Page</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <style>
+		body {
+    font-family: Arial, sans-serif;
+    background: url('images/indexpage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+	</style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Add New Product</h1>
+        <form action="aps" method="post">
+            <div class="form-group">
+                <label for="pcode">Product Code:</label>
+                <input type="text" id="pcode" name="pcode" required>
+            </div>
+            <div class="form-group">
+                <label for="pname">Product Name:</label>
+                <input type="text" id="pname" name="pname" required>
+            </div>
+            <div class="form-group">
+                <label for="pcompany">Product Company:</label>
+                <input type="text" id="pcompany" name="pcompany" required>
+            </div>
+            <div class="form-group">
+                <label for="pprice">Product Price:</label>
+                <input type="text" id="pprice" name="pprice" required>
+            </div>
+            <div class="form-group">
+                <label for="pqty">Product Quantity:</label>
+                <input type="text" id="pqty" name="pqty" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
