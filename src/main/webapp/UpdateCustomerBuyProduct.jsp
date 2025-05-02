@@ -19,7 +19,8 @@
             
             if (customerBean != null) {
                 out.println("<p>Hello, " + customerBean.getcFname() + "!</p>");
-                out.println("<p>You have ordered: <strong>" + productBean.getPname() + "</strong></p>");
+                out.println("<p>You have ordered: <strong>"+productBean.getPcompany()+" " + productBean.getPname() + "</strong></p>");
+                
                 out.println("<p>Order Quantity: <strong>" + request.getAttribute("reqno") + "</strong></p>");
                 out.println("<p>Product Price: <strong>Rs " + productBean.getPprice() + "</strong></p>");
                 out.println("<p>Total Charged: <strong>Rs " + request.getAttribute("total") + "</strong></p>");
